@@ -94,8 +94,9 @@
     // Build representational classes
     @each $names, $appearance in (
       abstract summary tldr: $clr-light-blue-a400 "\E8D2", // subject
-      info todo: $clr-cyan-a700 "\E88E", // info
+      info todo: $clr-cyan-a700 "\E88E", // info   
       tip hint important : $clr-teal-a700 "\E80E", // whatshot
+      linux Linux cmd : $clr-teal-a700 "🐧"        // linux
       success check done: $clr-green-a700 "\E876", // done
       question help faq: $clr-light-green-a700 "\E887", // help
       warning caution attention: $clr-orange-a400 "\E002", // warning
